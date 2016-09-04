@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="trench100free.otf">
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+            <string>Trench-Thin</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="overFullScreen" hidesBottomBarWhenPushed="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Tennis" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kCU-Q6-e4T"/>
+                        <viewControllerLayoutGuide type="bottom" id="i5W-mo-vhd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TennisCourt.png" translatesAutoresizingMaskIntoConstraints="NO" id="uT5-7I-1XH">
+                                <rect key="frame" x="-5" y="-5" width="578" height="330"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C34-Xf-c3C">
+                                <rect key="frame" x="317" y="0.0" width="64" height="60"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD9-K0-emC">
+                                <rect key="frame" x="253" y="8" width="24" height="33"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGt-ZQ-WXv">
+                                <rect key="frame" x="293" y="8" width="23" height="33"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9f-g3-jzh">
+                                <rect key="frame" x="5" y="265" width="129" height="55"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Switch.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gsu-vc-AKE">
+                                <rect key="frame" x="201" y="115" width="166" height="89"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Switch Sides" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOz-9R-ulF">
+                                <rect key="frame" x="164" y="85" width="240" height="50"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="40"/>
+                                <color key="textColor" red="0.015815075486898422" green="2.1500743969227187e-05" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ro5-xs-28Z">
+                                <rect key="frame" x="285" y="55" width="288" height="207"/>
+                                <state key="normal" title="&gt; Point">
+                                    <color key="titleColor" red="0.9962494969367981" green="0.98686903715133667" blue="0.98282188177108765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRightPoint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xX-M5-6fH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibz-h0-yWz">
+                                <rect key="frame" x="0.0" y="105" width="87" height="110"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7e-6g-R9o">
+                                <rect key="frame" x="480" y="105" width="88" height="110"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVu-rH-vWi">
+                                <rect key="frame" x="244" y="125" width="80" height="70"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M7B-Xm-rZt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mak-Oh-sIB">
+                                <rect key="frame" x="131" y="274" width="43" height="37"/>
+                                <state key="normal" title="Pause" image="pauseIcon.png">
+                                    <color key="titleColor" red="0.996257483959198" green="0.99363070726394653" blue="0.99299103021621704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.97588592767715454" green="0.94604629278182983" blue="0.92820817232131958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onPause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EL8-Sg-Efh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjf-fk-BS9">
+                                <rect key="frame" x="254" y="290" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="GillSans-UltraBold" family="Gill Sans" pointSize="20"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.028474142774939537" green="0.049225412309169769" blue="0.044144220650196075" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="oneServerSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XYr-PE-nJ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRw-jb-eLE">
+                                <rect key="frame" x="285" y="290" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="GillSans-UltraBold" family="Gill Sans" pointSize="20"/>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" red="0.028474338352680206" green="0.038027875125408173" blue="0.034813869744539261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="twoServerSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SAh-8u-Ufp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who is serving?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvp-r1-umT">
+                                <rect key="frame" x="161" y="258" width="246" height="40"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add-Out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APi-EQ-cXa">
+                                <rect key="frame" x="87" y="89" width="394" height="111"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A3e-fm-5s2">
+                                <rect key="frame" x="0.0" y="0.0" width="66" height="65"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8yd-ZK-f57">
+                                <rect key="frame" x="502" y="0.0" width="66" height="65"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ic2-19-bbX">
+                                <rect key="frame" x="203" y="148" width="164" height="98"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="45"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleColor" red="0.99285978078842163" green="0.98009282350540161" blue="0.97263115644454956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRestartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rGs-Jb-faX"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="cD9-Af-31X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li1-Kl-aAF">
+                                <rect key="frame" x="0.0" y="59" width="284" height="198"/>
+                                <state key="normal" title="Point &lt;">
+                                    <color key="titleColor" red="0.9962494969367981" green="0.98686903715133667" blue="0.98282188177108765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onLeftPoint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJe-aM-7Ag"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95q-qz-dhd">
+                                <rect key="frame" x="192" y="0.0" width="64" height="60"/>
+                                <fontDescription key="fontDescription" name="Trench-Thin" family="Trench" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNe-6h-0Sk">
+                                <rect key="frame" x="506" y="258" width="62" height="62"/>
+                                <state key="normal" image="settingsIcon.png"/>
+                                <connections>
+                                    <segue destination="ADZ-Hg-nVV" kind="modal" id="kUa-Jz-P5M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="N8A-3Q-68X"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="addLabel" destination="APi-EQ-cXa" id="CRW-SA-Wv3"/>
+                        <outlet property="leftPoint" destination="Li1-Kl-aAF" id="V6b-Cw-6bd"/>
+                        <outlet property="leftServingImage" destination="A3e-fm-5s2" id="hpy-dG-Ebd"/>
+                        <outlet property="oneGame" destination="95q-qz-dhd" id="TWQ-Tv-n30"/>
+                        <outlet property="onePoint" destination="Ibz-h0-yWz" id="IsP-Qi-sW9"/>
+                        <outlet property="oneSet" destination="uD9-K0-emC" id="ImU-XW-hZG"/>
+                        <outlet property="pauseLabel" destination="Mak-Oh-sIB" id="cvv-N6-sgk"/>
+                        <outlet property="restartButton" destination="ic2-19-bbX" id="51M-qx-P14"/>
+                        <outlet property="rightPoint" destination="ro5-xs-28Z" id="JSF-hd-IQg"/>
+                        <outlet property="rightServingImage" destination="8yd-ZK-f57" id="mwF-5v-8Un"/>
+                        <outlet property="servingLeftSelection" destination="Hjf-fk-BS9" id="spr-B4-KVQ"/>
+                        <outlet property="servingRightSelection" destination="FRw-jb-eLE" id="mB0-7y-zYG"/>
+                        <outlet property="servingSelectionLabel" destination="rvp-r1-umT" id="l2n-JK-25y"/>
+                        <outlet property="settingsButtonOverlay" destination="kNe-6h-0Sk" id="kjX-9D-sdV"/>
+                        <outlet property="startGame" destination="JVu-rH-vWi" id="cjw-4O-QF1"/>
+                        <outlet property="switchSidesImage" destination="Gsu-vc-AKE" id="U4v-PT-3cs"/>
+                        <outlet property="switchSidesText" destination="QOz-9R-ulF" id="3If-fW-goo"/>
+                        <outlet property="timeLabel" destination="w9f-g3-jzh" id="50Z-az-kX7"/>
+                        <outlet property="twoGame" destination="C34-Xf-c3C" id="pTd-kh-Mk7"/>
+                        <outlet property="twoPoint" destination="a7e-6g-R9o" id="4h9-cm-OEz"/>
+                        <outlet property="twoSet" destination="uGt-ZQ-WXv" id="vq6-99-NBI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="455"/>
+        </scene>
+        <!--Second Controller-->
+        <scene sceneID="rDa-DV-uzH">
+            <objects>
+                <viewController id="ADZ-Hg-nVV" customClass="SecondController" customModule="Tennis" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g33-js-N5a"/>
+                        <viewControllerLayoutGuide type="bottom" id="5m0-LS-zGS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E9v-oZ-Guy">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuz-HE-nWE">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                <state key="normal" title="&lt;"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="360-9N-3DA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLo-tb-qdT">
+                                <rect key="frame" x="252" y="20" width="64" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rfG-dp-L5h">
+                                <rect key="frame" x="20" y="71" width="109" height="29"/>
+                                <segments>
+                                    <segment title="Ad"/>
+                                    <segment title="No-Ad"/>
+                                </segments>
+                                <connections>
+                                    <action selector="adButton:" destination="ADZ-Hg-nVV" eventType="valueChanged" id="ohW-XW-OlU"/>
+                                </connections>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="#" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fdy-fJ-QC2">
+                                <rect key="frame" x="236" y="172" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amount of Sets to Win" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWR-N8-GzM">
+                                <rect key="frame" x="198" y="143" width="172" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C97-uZ-FYb">
+                                <rect key="frame" x="260" y="210" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="onSetNumberSubmit:" destination="ADZ-Hg-nVV" eventType="touchUpInside" id="pL0-Cc-8f2"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SHU-BI-C2j">
+                                <rect key="frame" x="427" y="71" width="121" height="29"/>
+                                <segments>
+                                    <segment title="On"/>
+                                    <segment title="Off"/>
+                                </segments>
+                                <connections>
+                                    <action selector="tieBreakerButton:" destination="ADZ-Hg-nVV" eventType="valueChanged" id="wfE-4J-Ite"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tie-Breakers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7c-tT-AVR">
+                                <rect key="frame" x="438" y="42" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jvn-5O-LZ8"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="568" height="320"/>
+                    <connections>
+                        <outlet property="adSwitch" destination="rfG-dp-L5h" id="Qvg-fw-jlg"/>
+                        <outlet property="setsTextBox" destination="fdy-fJ-QC2" id="bmD-sT-B8D"/>
+                        <outlet property="tieBreakerSwitch" destination="SHU-BI-C2j" id="oT3-k5-Acj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3TM-hb-VXR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="909.99999999999989"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Switch.png" width="400" height="400"/>
+        <image name="TennisCourt.png" width="600" height="294"/>
+        <image name="pauseIcon.png" width="60" height="80"/>
+        <image name="settingsIcon.png" width="128" height="128"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="360-9N-3DA"/>
+    </inferredMetricsTieBreakers>
+</document>
